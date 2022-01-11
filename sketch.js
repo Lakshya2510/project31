@@ -15,7 +15,7 @@ function setup() {
     engine = Engine.create();
     world = engine.world;
     
-    dropes = new Dropes(128,245)
+    dropes = new Dropes(2,128,245)
     
 	Engine.run(engine);
 
